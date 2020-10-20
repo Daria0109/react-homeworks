@@ -1,0 +1,11 @@
+.blue {
+    background: honeydew;
+    border-bottom: 3px solid darkseagreen;
+}
+
+.column {
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+}

@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+.affairs {
+    width: 350px;
+    border: 1px solid slategrey;
+    padding: 10px 15px;
+    background-image: url("https://onlyvectorbackgrounds.com/wp-content/uploads/2018/09/Abstract-Ambient-Light-Background-Day-Blue.jpg");
+background-size: cover;
+}
+.delete_btn {
+    background-color: crimson;
+    margin-left: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.delete_btn:active {
+    background-color: maroon;
+    color: gainsboro;
+    outline: none;
+}
+.filter_btn {
+    display: inline-block;
+    padding: 4px 8px;
+    margin-left: 5px;
+    background-color: bisque;
+    border: 1px solid black;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.filter_btn:active {
+    background-color: coral;
+    outline: none;
+}
