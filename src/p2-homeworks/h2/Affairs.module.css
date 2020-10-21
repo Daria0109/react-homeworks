@@ -1,24 +1,60 @@
 * {
     box-sizing: border-box;
 }
+
 .affairs {
-    width: 350px;
-    border: 1px solid slategrey;
     padding: 10px 15px;
-    background-image: url("https://onlyvectorbackgrounds.com/wp-content/uploads/2018/09/Abstract-Ambient-Light-Background-Day-Blue.jpg");
-background-size: cover;
+    background-color: wheat;
 }
-.delete_btn {
-    background-color: crimson;
-    margin-left: 10px;
+
+.block {
+    max-width: 30%;
+}
+
+.row {
+    padding: 3px;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+}
+
+.affair {
+    font-size: 18px;
+    color: maroon;
+    font-weight: bolder;
+}
+
+.priority {
+    justify-self: center;
+    border-radius: 3px;
+    padding: 2px 8px;
+    text-align: center;
+    color: lightgoldenrodyellow;
+    font-size: 14px;
+    background-color: maroon;
+}
+
+.del_btn {
+    /*justify-self: center;*/
+    place-self: center;
+}
+
+.btn {
+    display: block;
+    padding: 1px 5px;
+    border-radius: 2px;
+    align-items: center;
+    background-color: papayawhip;
+    color: #61676b;
     border: 1px solid black;
     cursor: pointer;
 }
-.delete_btn:active {
+
+.btn:active {
     background-color: maroon;
     color: gainsboro;
     outline: none;
 }
+
 .filter_btn {
     display: inline-block;
     padding: 4px 8px;
@@ -28,6 +64,7 @@ background-size: cover;
     border-radius: 6px;
     cursor: pointer;
 }
+
 .filter_btn:active {
     background-color: coral;
     outline: none;
