@@ -1,5 +1,6 @@
 import React from "react";
 import Message from './Message';
+import classes from './Message.module.css'
 
 
 
@@ -13,9 +14,9 @@ function HW1() {
     };
 
        return (
-        <div>
-            <hr/>
-            homeworks 1
+        <div className={classes.hw_1}>
+            {/*<hr/>*/}
+            <p className={classes.homework_1}>homeworks 1</p>
             {/*should work (должно работать)*/}
 
             <Message

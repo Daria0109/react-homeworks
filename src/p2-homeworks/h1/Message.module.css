@@ -2,13 +2,19 @@
     box-sizing: border-box;
 }
 
+.homework_1 {
+    text-align: center;
+}
+
 .message {
+    margin: 0 auto;
     width: 400px;
     height: 90px;
     padding: 3px 7px;
     background-color: #b3e522;
     display: flex;
     justify-content: space-between;
+
 }
 
 .avatar {
