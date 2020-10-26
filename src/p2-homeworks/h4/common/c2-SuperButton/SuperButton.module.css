@@ -1,16 +1,18 @@
 .buttonStyle {
-    display: block;
-    max-width: 100px;
-    border: none;
-    border-radius: 5px;
-    padding: 10px;
-    cursor: pointer;
-    background-color: darkred;
-    font-size: 18px;
-    font-style: italic;
-    color: white;
-    margin-bottom: 20px;
+  display: inline-block;
+  max-width: 100px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: darkred;
+  font-size: 18px;
+  font-style: italic;
+  color: white;
+  margin-bottom: 20px;
+  margin-right: 10px;
 }
+
 .default {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }

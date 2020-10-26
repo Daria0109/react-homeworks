@@ -6,8 +6,8 @@ import App from './p1-main/m1-ui/u1-app/App';
 
 ReactDOM.render(
   <React.StrictMode>
-      {/* eslint-disable-next-line react/jsx-no-undef */}
-    <App />
+    {/* eslint-disable-next-line react/jsx-no-undef */}
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );
