@@ -25,12 +25,12 @@ function HW8() {
   const finalPeople = people.map(p => (
     <div key={p._id} className={s.row}>
       <div className={s.name_item}>
-        <span>name</span>
+        <span className={s.span}>name</span>
         <div className={s.name}>{p.name}</div>
       </div>
 
       <div className={s.age_item}>
-        <span>age</span>
+        <span className={s.span}>age</span>
         <div className={s.age}>{p.age}</div>
       </div>
       </div>

@@ -14,5 +14,18 @@
 }
 
 .default {
-  /*margin-bottom: 10px;*/
+  display: inline-block;
+  width: 80px;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 5px;
+  cursor: pointer;
+  background-color: #abb4a8;
+  outline: none;
+  font-size: 16px;
+
+}
+.default:focus {
+  box-shadow: 0 0 0 1px black;
+  background-color: dimgrey;
 }

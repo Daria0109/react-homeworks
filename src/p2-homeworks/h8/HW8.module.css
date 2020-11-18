@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 }
-span {
+.span {
   display: inline-block;
   font-size: 12px;
   color: #61676b;
