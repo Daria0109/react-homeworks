@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/react-homeworks/static/css/main.4079013f.chunk.css",
-    "main.js": "/react-homeworks/static/js/main.153e66ce.chunk.js",
-    "main.js.map": "/react-homeworks/static/js/main.153e66ce.chunk.js.map",
+    "main.css": "/react-homeworks/static/css/main.09f03567.chunk.css",
+    "main.js": "/react-homeworks/static/js/main.eb35b58b.chunk.js",
+    "main.js.map": "/react-homeworks/static/js/main.eb35b58b.chunk.js.map",
     "runtime-main.js": "/react-homeworks/static/js/runtime-main.c6e98aec.js",
     "runtime-main.js.map": "/react-homeworks/static/js/runtime-main.c6e98aec.js.map",
-    "static/js/2.7e9fb8ae.chunk.js": "/react-homeworks/static/js/2.7e9fb8ae.chunk.js",
-    "static/js/2.7e9fb8ae.chunk.js.map": "/react-homeworks/static/js/2.7e9fb8ae.chunk.js.map",
+    "static/js/2.db0378df.chunk.js": "/react-homeworks/static/js/2.db0378df.chunk.js",
+    "static/js/2.db0378df.chunk.js.map": "/react-homeworks/static/js/2.db0378df.chunk.js.map",
     "index.html": "/react-homeworks/index.html",
-    "precache-manifest.87e248729cc2a33c2e989c8198f47a44.js": "/react-homeworks/precache-manifest.87e248729cc2a33c2e989c8198f47a44.js",
+    "precache-manifest.57597cd27e543d6d5101847838792d07.js": "/react-homeworks/precache-manifest.57597cd27e543d6d5101847838792d07.js",
     "service-worker.js": "/react-homeworks/service-worker.js",
-    "static/css/main.4079013f.chunk.css.map": "/react-homeworks/static/css/main.4079013f.chunk.css.map",
-    "static/js/2.7e9fb8ae.chunk.js.LICENSE.txt": "/react-homeworks/static/js/2.7e9fb8ae.chunk.js.LICENSE.txt",
-    "static/media/404-error.jpg": "/react-homeworks/static/media/404-error.3928156a.jpg"
+    "static/css/main.09f03567.chunk.css.map": "/react-homeworks/static/css/main.09f03567.chunk.css.map",
+    "static/js/2.db0378df.chunk.js.LICENSE.txt": "/react-homeworks/static/js/2.db0378df.chunk.js.LICENSE.txt",
+    "static/media/404-error.jpg": "/react-homeworks/static/media/404-error.3928156a.jpg",
+    "static/media/Orbitron-Regular.ttf": "/react-homeworks/static/media/Orbitron-Regular.add0c424.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.c6e98aec.js",
-    "static/js/2.7e9fb8ae.chunk.js",
-    "static/css/main.4079013f.chunk.css",
-    "static/js/main.153e66ce.chunk.js"
+    "static/js/2.db0378df.chunk.js",
+    "static/css/main.09f03567.chunk.css",
+    "static/js/main.eb35b58b.chunk.js"
   ]
 }
