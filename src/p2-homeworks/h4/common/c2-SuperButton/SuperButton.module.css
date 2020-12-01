@@ -15,10 +15,10 @@
 
 .default {
   display: inline-block;
-  width: 80px;
+  /*width: 80px;*/
   border: none;
   border-radius: 4px;
-  padding: 10px 5px;
+  padding: 10px 15px;
   cursor: pointer;
   background-color: #abb4a8;
   outline: none;
