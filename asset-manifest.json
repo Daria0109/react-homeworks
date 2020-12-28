@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/react-homeworks/static/css/main.ccf00bf8.chunk.css",
-    "main.js": "/react-homeworks/static/js/main.0ed880ee.chunk.js",
-    "main.js.map": "/react-homeworks/static/js/main.0ed880ee.chunk.js.map",
+    "main.css": "/react-homeworks/static/css/main.f3e3fcd6.chunk.css",
+    "main.js": "/react-homeworks/static/js/main.df640274.chunk.js",
+    "main.js.map": "/react-homeworks/static/js/main.df640274.chunk.js.map",
     "runtime-main.js": "/react-homeworks/static/js/runtime-main.c6e98aec.js",
     "runtime-main.js.map": "/react-homeworks/static/js/runtime-main.c6e98aec.js.map",
-    "static/js/2.21d22e86.chunk.js": "/react-homeworks/static/js/2.21d22e86.chunk.js",
-    "static/js/2.21d22e86.chunk.js.map": "/react-homeworks/static/js/2.21d22e86.chunk.js.map",
+    "static/js/2.c984fc99.chunk.js": "/react-homeworks/static/js/2.c984fc99.chunk.js",
+    "static/js/2.c984fc99.chunk.js.map": "/react-homeworks/static/js/2.c984fc99.chunk.js.map",
     "index.html": "/react-homeworks/index.html",
-    "precache-manifest.6dab5e7153447c1d3491c341e229722e.js": "/react-homeworks/precache-manifest.6dab5e7153447c1d3491c341e229722e.js",
+    "precache-manifest.768614d128ed2422b6832ad6b08bbe5f.js": "/react-homeworks/precache-manifest.768614d128ed2422b6832ad6b08bbe5f.js",
     "service-worker.js": "/react-homeworks/service-worker.js",
-    "static/css/main.ccf00bf8.chunk.css.map": "/react-homeworks/static/css/main.ccf00bf8.chunk.css.map",
-    "static/js/2.21d22e86.chunk.js.LICENSE.txt": "/react-homeworks/static/js/2.21d22e86.chunk.js.LICENSE.txt",
+    "static/css/main.f3e3fcd6.chunk.css.map": "/react-homeworks/static/css/main.f3e3fcd6.chunk.css.map",
+    "static/js/2.c984fc99.chunk.js.LICENSE.txt": "/react-homeworks/static/js/2.c984fc99.chunk.js.LICENSE.txt",
     "static/media/404-error.jpg": "/react-homeworks/static/media/404-error.3928156a.jpg",
     "static/media/Orbitron-Regular.ttf": "/react-homeworks/static/media/Orbitron-Regular.add0c424.ttf",
     "static/media/loader.svg": "/react-homeworks/static/media/loader.4dcc6bfb.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.c6e98aec.js",
-    "static/js/2.21d22e86.chunk.js",
-    "static/css/main.ccf00bf8.chunk.css",
-    "static/js/main.0ed880ee.chunk.js"
+    "static/js/2.c984fc99.chunk.js",
+    "static/css/main.f3e3fcd6.chunk.css",
+    "static/js/main.df640274.chunk.js"
   ]
 }
