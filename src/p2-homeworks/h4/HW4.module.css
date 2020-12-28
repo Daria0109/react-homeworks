@@ -1,4 +1,4 @@
-.blue {
+.blueStyle {
     background: honeydew;
     border-bottom: 3px solid darkseagreen;
 }
@@ -9,3 +9,4 @@
     flex-direction: column;
     background-color: whitesmoke;
 }
+

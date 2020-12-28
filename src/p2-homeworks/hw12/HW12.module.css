@@ -1,0 +1,63 @@
+.container {
+    padding: 10px;
+}
+
+.radioBlock {
+    margin-left: 30px;
+}
+
+.dark {
+    background: dimgrey;
+}
+
+.white {
+    background: white;
+}
+
+.white-text {
+    color: black;
+}
+
+.dark-text {
+    color: aliceblue;
+}
+
+.red {
+    background: lightcoral;
+}
+
+.red-text {
+    color: #A40004;
+}
+
+.some {
+    background: lightgreen;
+}
+
+.some-text {
+    color: darkslateblue;
+}
+
+.orange {
+    background: #FFAD40;
+}
+
+.orange-text {
+    color: #A65F00;
+}
+
+.blue {
+    background: #64A8D1;
+}
+
+.blue-text {
+    color: #03436A;
+}
+
+.purple {
+    background: #DC63C2;
+}
+
+.purple-text {
+    color: #79005E;
+}

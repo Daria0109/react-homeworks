@@ -1,9 +1,15 @@
 import React, {useState} from "react";
 import SuperButton from "../h4/common/c2-SuperButton/SuperButton";
-import s from './Clock.module.css'
+import s from './Clock.module.css';
+import theme from './../hw12/HW12.module.css';
 import './../../fonts/static/Orbitron-Regular.ttf'
+import {useSelector} from 'react-redux';
+import {AppStoreType} from '../h10/bll/store';
 
 function Clock() {
+  const mainTheme = useSelector<AppStoreType, string>(state => state.theme.mainTheme)
+  const colorTheme = `${theme[mainTheme]} ${theme[mainTheme + '-text']}`;
+
   const [timerId, setTimerId] = useState<number>(0);
   const [date, setDate] = useState<Date>(new Date());
   const [show, setShow] = useState<boolean>(false);
@@ -45,8 +51,8 @@ function Clock() {
         )}
 
         <div className={s.buttons}>
-          <SuperButton onClick={start}>Start</SuperButton>
-          <SuperButton onClick={stop}>Stop</SuperButton>
+          <SuperButton className={colorTheme} onClick={start}>Start</SuperButton>
+          <SuperButton className={colorTheme} onClick={stop}>Stop</SuperButton>
         </div>
       </div>
 

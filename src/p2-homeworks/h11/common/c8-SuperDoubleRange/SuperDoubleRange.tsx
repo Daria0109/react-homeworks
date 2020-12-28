@@ -5,7 +5,7 @@ import {createMuiTheme, ThemeProvider} from '@material-ui/core';
 type DefaultInputPropsType = DetailedHTMLProps<InputHTMLAttributes<HTMLInputElement>, HTMLInputElement>;
 type SuperDoubleRangePropsType = DefaultInputPropsType & {
   onChangeRange: (values: Array<number>) => void
-  values: number | number[]
+  values: Array<number>
   // min, max, step, disable, ...
 }
 

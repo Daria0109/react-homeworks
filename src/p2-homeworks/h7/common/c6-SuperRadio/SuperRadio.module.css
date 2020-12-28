@@ -18,11 +18,11 @@
 .radio_style {
   margin-left: -20px;
   position: absolute;
-  top: 0;
+  top: 3px;
   left: 0;
   height: 18px;
   width: 18px;
-  border: 2px solid  #0ea36e;
+  border: 2px solid #000000;
   border-radius: 50%;
 }
 .radio_style:after {
@@ -41,16 +41,17 @@
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: #0ea36e;
+  background-color: #000000;
 }
 .radio:checked .radio-style:after {
   content: "";
   width: 10px;
   height: 10px;
-  background-color: #0ea36e;
+  background-color: #000000;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
+

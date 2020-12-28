@@ -3,20 +3,26 @@ import SuperEditableSpan from './common/c4-SuperEditableSpan/SuperEditableSpan';
 import SuperButton from '../h4/common/c2-SuperButton/SuperButton';
 import {restoreState, saveState} from './localStorage/localStorage';
 import s from './HW6.module.css'
+import theme from './../hw12/HW12.module.css'
 import AlternativeSuperEditableSpan from './common/c4-SuperEditableSpan/AlternativeSuperEditableSpan';
 import SuperCheckbox from '../h4/common/c3-SuperCheckbox/SuperCheckbox';
+import {useSelector} from 'react-redux';
+import {AppStoreType} from '../h10/bll/store';
 
 function HW6() {
+  const mainTheme = useSelector<AppStoreType, string>(state => state.theme.mainTheme);
+  const colorTheme = `${theme[mainTheme]} ${theme[mainTheme + '-text']}`;
+
   const [value, setValue] = useState<string>('');
-  const [alternativeValue, setAlternativeValue] = useState<string>("");
+  const [alternativeValue, setAlternativeValue] = useState<string>('');
   const [editMode, setEditMode] = useState<boolean>(false);
 
   const [checked, setChecked] = useState<boolean>(false);
-  const [checkboxText, setCheckboxText] = useState<string>("Activate edit mode")
+  const [checkboxText, setCheckboxText] = useState<string>('Activate edit mode')
   const toggleEditMode = (e: ChangeEvent<HTMLInputElement>) => {
     setChecked(e.currentTarget.checked);
     setEditMode(!editMode); // по нажатию на checkbox активируется режим редактирования span
-    setCheckboxText(!editMode ? "Save changes" : "Activate edit mode"); // изменяется текст у checkbox
+    setCheckboxText(!editMode ? 'Save changes' : 'Activate edit mode'); // изменяется текст у checkbox
   }
 
   const save = () => {
@@ -41,8 +47,10 @@ function HW6() {
 
           />
         </div>
-        <SuperButton buttonStyle onClick={save}>Save</SuperButton>
-        <SuperButton buttonStyle onClick={restore}>Restore</SuperButton>
+        <SuperButton className={colorTheme} buttonStyle
+                     onClick={save}>Save</SuperButton>
+        <SuperButton className={colorTheme} buttonStyle
+                     onClick={restore}>Restore</SuperButton>
 
         <hr/>
         {/*для личного творчества, могу проверить*/}
