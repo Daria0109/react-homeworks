@@ -25,7 +25,7 @@ function HW12() {
 
           {/*should work (должно работать)*/}
           <div className={s.radioBlock}>
-            <SuperRadio name={'radio'}
+            <SuperRadio name={'theme'}
                         options={themes}
                         value={mainTheme}
                         onChangeOption={onChangeCallback}/>

@@ -1,0 +1,14 @@
+.hw13 {
+    padding: 20px;
+    background: #ffd688;
+}
+.block {
+    display: flex;
+    align-items: center;
+}
+.block > * {
+    margin-right: 10px;
+}
+.block span {
+    background: #ff5d51;
+}

@@ -3,15 +3,10 @@ import SuperInputText from './common/c1-SuperInputText/SuperInputText';
 import SuperButton from './common/c2-SuperButton/SuperButton';
 import SuperCheckbox from './common/c3-SuperCheckbox/SuperCheckbox';
 import s from './HW4.module.css';
-import theme from './../hw12/HW12.module.css';
-import {useSelector} from 'react-redux';
-import {AppStoreType} from '../h10/bll/store';
+
 
 
 function HW4() {
-  const mainTheme = useSelector<AppStoreType, string>(state => state.theme.mainTheme)
-  const colorTheme = `${theme[mainTheme]} ${theme[mainTheme + '-text']}`;
-
   const [text, setText] = useState<string>('');
   const error = text ? '' : 'Enter your text...';
   const showAlert = () => {
@@ -41,7 +36,7 @@ function HW4() {
           className={s.blueStyle}
         />
 
-        <SuperButton className={colorTheme} buttonStyle={true} onClick={showAlert}>delete</SuperButton>
+        <SuperButton buttonStyle={true} onClick={showAlert}>delete</SuperButton>
 
         {/*should work (должно работать)*/}
         <SuperCheckbox

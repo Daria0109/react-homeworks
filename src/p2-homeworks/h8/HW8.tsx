@@ -2,9 +2,6 @@ import React, {useState} from 'react';
 import {homeWorkReducer} from './bll/homeWorkReducer';
 import SuperButton from '../h4/common/c2-SuperButton/SuperButton';
 import s from './HW8.module.css';
-import theme from './../hw12/HW12.module.css';
-import {useSelector} from 'react-redux';
-import {AppStoreType} from '../h10/bll/store';
 
 export type ManType = {
   _id: number
@@ -23,9 +20,6 @@ const initialPeople: InitialPeopleType = [
 ]
 
 function HW8() {
-  const mainTheme = useSelector<AppStoreType, string>(state => state.theme.mainTheme);
-  const colorTheme = `${theme[mainTheme]} ${theme[mainTheme + '-text']}`;
-
   const [people, setPeople] = useState<InitialPeopleType>(initialPeople);
 
   const finalPeople = people.map(p => (
@@ -55,9 +49,9 @@ function HW8() {
 
         {finalPeople}
         <div className={s.buttons}>
-          <div className={s.btn}><SuperButton className={colorTheme} onClick={sortUp}>sort up</SuperButton></div>
-          <div className={s.btn}><SuperButton className={colorTheme} onClick={sortDown}>sort down</SuperButton></div>
-          <div className={s.btn}><SuperButton className={colorTheme} onClick={check18}>check 18</SuperButton></div>
+          <div className={s.btn}><SuperButton onClick={sortUp}>sort up</SuperButton></div>
+          <div className={s.btn}><SuperButton onClick={sortDown}>sort down</SuperButton></div>
+          <div className={s.btn}><SuperButton onClick={check18}>check 18</SuperButton></div>
         </div>
       </div>
         <hr/>

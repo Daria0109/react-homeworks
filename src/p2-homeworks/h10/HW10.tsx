@@ -5,12 +5,8 @@ import {AppStoreType} from './bll/store';
 import {loadingAC} from './bll/loadingReducer';
 import loader from '../../assets/homework-10/loader.svg';
 import s from './HW10.module.css';
-import theme from './../hw12/HW12.module.css'
 
 function HW10() {
-  const mainTheme = useSelector<AppStoreType, string>(state => state.theme.mainTheme)
-  const colorTheme = `${theme[mainTheme]} ${theme[mainTheme + '-text']}`;
-
   const dispatch = useDispatch();
   const loading = useSelector<AppStoreType, boolean>(state => state.loading.isLoading);
 
@@ -35,7 +31,7 @@ function HW10() {
           </div>
         ) : (
           <div>
-            <SuperButton className={colorTheme} onClick={setLoading}>Set Loading</SuperButton>
+            <SuperButton onClick={setLoading}>Set Loading</SuperButton>
           </div>
         )
       }
